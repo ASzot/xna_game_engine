@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="RenderingSystem.RendererImpl.ParticleSettings">
+    <BlendState>NonPremultiplied</BlendState>
+    <TextureName>particles/spark</TextureName>
+    <MaxParticles>4000</MaxParticles>
+    <Duration>PT5S</Duration>
+    <DurationRandomness>0</DurationRandomness>
+    <EmissionRate>400</EmissionRate>
+    <EmitterVelocitySensitivity>0.1</EmitterVelocitySensitivity>
+    <MinHorizontalVelocity>0</MinHorizontalVelocity>
+    <MaxHorizontalVelocity>0.2</MaxHorizontalVelocity>
+    <MinVerticalVelocity>0.5</MinVerticalVelocity>
+    <MaxVerticalVelocity>1</MaxVerticalVelocity>
+    <Gravity>0.0 0.5 0</Gravity>
+    <EndVelocity>0.75</EndVelocity>
+    <MinColor>FFFFFFFF</MinColor>
+    <MaxColor>FFFFFFFF</MaxColor>
+    <MinRotateSpeed>-1</MinRotateSpeed>
+    <MaxRotateSpeed>1</MaxRotateSpeed>
+    <MinStartSize>0.3</MinStartSize>
+    <MaxStartSize>0.8</MaxStartSize>
+    <MinEndSize>1</MinEndSize>
+    <MaxEndSize>1.5</MaxEndSize>
+  </Asset>
+</XnaContent>

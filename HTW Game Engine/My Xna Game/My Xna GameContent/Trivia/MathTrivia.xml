@@ -1,0 +1,283 @@
+<?xml version="1.0"?>
+<ArrayOfTriviaQuestion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TriviaQuestion>
+    <Question>What is the correct vector parameterization of a torus?</Question>
+    <PossibleAnswers>
+      <string>(b+a*cos(s))sin(t)i+(b+a*cos(s))cos(t)j+(a*sin(s))k</string>
+      <string>(b-a*cos(s))sin(t)i+(b-a*cos(s))cos(t)j+(a*sin(s))k</string>
+      <string>(b+a*cos(s))sin(t)i+(b+a*cos(s))cos(t)j+(a*cos(s))k</string>
+      <string>(b+a*cos(s))sin(t)i+(b+a*cos(s))sin(t)j+(a*cos(t))k</string>
+    </PossibleAnswers>
+    <NumAnswers>4</NumAnswers>
+    <CorrectAnswerIndex>0</CorrectAnswerIndex>
+    <IsMathQuestion>false</IsMathQuestion>
+    <MathInputStr></MathInputStr>
+  </TriviaQuestion>
+
+  <TriviaQuestion>
+    <Question>What is the name for a path independant vector feild</Question>
+    <PossibleAnswers>
+      <string>conservative</string>
+      <string>independant</string>
+      <string>non-effective</string>
+      <string>open</string>
+    </PossibleAnswers>
+    <NumAnswers>4</NumAnswers>
+    <CorrectAnswerIndex>0</CorrectAnswerIndex>
+    <IsMathQuestion>false</IsMathQuestion>
+    <MathInputStr></MathInputStr>
+  </TriviaQuestion>
+
+  <TriviaQuestion>
+    <Question>3x-2+7=4(x-1)</Question>
+    <PossibleAnswers>
+      <string>x=1</string>
+      <string>x=2</string>
+      <string>x=-1</string>
+      <string>x=3</string>
+    </PossibleAnswers>
+    <NumAnswers>4</NumAnswers>
+    <CorrectAnswerIndex>0</CorrectAnswerIndex>
+    <IsMathQuestion>true</IsMathQuestion>
+    <MathInputStr>3*x-2+7=4*(x-1)</MathInputStr>
+  </TriviaQuestion>
+
+  <TriviaQuestion>
+    <Question>x^2-x-6=0</Question>
+    <PossibleAnswers>
+      <string>x=3,-2</string>
+      <string>x=3, 2</string>
+      <string>x=-3, -2</string>
+      <string>x=3</string>
+    </PossibleAnswers>
+    <NumAnswers>4</NumAnswers>
+    <CorrectAnswerIndex>0</CorrectAnswerIndex>
+    <IsMathQuestion>true</IsMathQuestion>
+    <MathInputStr>x^2-x-6=0</MathInputStr>
+  </TriviaQuestion>
+
+  <!--<TriviaQuestion>
+    <Question>Anti-derivative of cos(x)</Question>
+    <PossibleAnswers>
+      <string>sin(x)</string>
+      <string>-sin(x)</string>
+      <string>cos(x)</string>
+      <string>tan(x)</string>
+    </PossibleAnswers>
+    <NumAnswers>4</NumAnswers>
+    <CorrectAnswerIndex>0</CorrectAnswerIndex>
+    <IsMathQuestion>true</IsMathQuestion>
+    <MathInputStr>indefInt(cos(x))</MathInputStr>
+  </TriviaQuestion>-->
+
+  <TriviaQuestion>
+    <Question>3^(2x-4)=7</Question>
+    <PossibleAnswers>
+      <string>x=2.89</string>
+      <string>x=0.12</string>
+      <string>x=4.51</string>
+      <string>x=1.32</string>
+    </PossibleAnswers>
+    <NumAnswers>4</NumAnswers>
+    <CorrectAnswerIndex>0</CorrectAnswerIndex>
+    <IsMathQuestion>true</IsMathQuestion>
+    <MathInputStr>3^(2*x-4)=7</MathInputStr>
+  </TriviaQuestion>
+
+  <TriviaQuestion>
+    <Question>x^4-2x^3-25x^2+26x+120=0</Question>
+    <PossibleAnswers>
+      <string>x=-2,3,5,-4</string>
+      <string>x=2,-3,5,1</string>
+      <string>x=3,2,1,3</string>
+      <string>x=-2,3,5</string>
+    </PossibleAnswers>
+    <NumAnswers>4</NumAnswers>
+    <CorrectAnswerIndex>0</CorrectAnswerIndex>
+    <IsMathQuestion>true</IsMathQuestion>
+    <MathInputStr>x^4-2*x^3-25*x^2+26*x+120=0</MathInputStr>
+  </TriviaQuestion>
+
+  <TriviaQuestion>
+    <Question>2^(4x-3)=17</Question>
+    <PossibleAnswers>
+      <string>x=1.77</string>
+      <string>x=1.30</string>
+      <string>x=4.51</string>
+      <string>x=0.41</string>
+    </PossibleAnswers>
+    <NumAnswers>4</NumAnswers>
+    <CorrectAnswerIndex>0</CorrectAnswerIndex>
+    <IsMathQuestion>true</IsMathQuestion>
+    <MathInputStr>2^(4*x-3)=17</MathInputStr>
+  </TriviaQuestion>
+
+  <TriviaQuestion>
+    <Question>x^12=4096</Question>
+    <PossibleAnswers>
+      <string>x=2</string>
+      <string>x=4</string>
+      <string>x=3</string>
+      <string>x=5</string>
+    </PossibleAnswers>
+    <NumAnswers>4</NumAnswers>
+    <CorrectAnswerIndex>0</CorrectAnswerIndex>
+    <IsMathQuestion>true</IsMathQuestion>
+    <MathInputStr>x^12=4096</MathInputStr>
+  </TriviaQuestion>
+
+  <TriviaQuestion>
+    <Question>log(2x)+log(x)=4</Question>
+    <PossibleAnswers>
+      <string>x=70.71</string>
+      <string>x=60.42</string>
+      <string>x=84.56</string>
+      <string>x=69.12</string>
+    </PossibleAnswers>
+    <NumAnswers>4</NumAnswers>
+    <CorrectAnswerIndex>0</CorrectAnswerIndex>
+    <IsMathQuestion>true</IsMathQuestion>
+    <MathInputStr>log(2*x)+log(x)=4</MathInputStr>
+  </TriviaQuestion>
+
+  <TriviaQuestion>
+    <Question>d/dx[log(cos(x))]</Question>
+    <PossibleAnswers>
+      <string>(200000sin(x))/(-460517cos(x))</string>
+      <string>1/cos(x)</string>
+      <string>1/-sin(x)</string>
+      <string>cos(x)/-sin(x)</string>
+    </PossibleAnswers>
+    <NumAnswers>4</NumAnswers>
+    <CorrectAnswerIndex>0</CorrectAnswerIndex>
+    <IsMathQuestion>true</IsMathQuestion>
+    <MathInputStr>d/dx(log(cos(x)))</MathInputStr>
+  </TriviaQuestion>
+
+  <TriviaQuestion>
+    <Question>Taylor series expansion for cos(x)</Question>
+    <PossibleAnswers>
+      <string>1-(x^2/2!)+(x^4/4!) + ...</string>
+      <string>x-(x^3/3!)+(x^5/5!) + ...</string>
+      <string>1+x-(x^2/2!)-(x^3/3!) + ...</string>
+      <string>1+x+(x^2/2!)+(x^3/3!) + ...</string>
+    </PossibleAnswers>
+    <NumAnswers>4</NumAnswers>
+    <CorrectAnswerIndex>0</CorrectAnswerIndex>
+    <IsMathQuestion>true</IsMathQuestion>
+    <MathInputStr>taylor series for [cos(x)]</MathInputStr>
+  </TriviaQuestion>
+
+  <TriviaQuestion>
+    <Question>What is the prime factorization of 189202094?</Question>
+    <PossibleAnswers>
+      <string>2,23,151,27239</string>
+      <string>189202094</string>
+      <string>1,2,23,151,27239</string>
+      <string>5,181,197,2009,1003</string>
+    </PossibleAnswers>
+    <NumAnswers>4</NumAnswers>
+    <CorrectAnswerIndex>0</CorrectAnswerIndex>
+    <IsMathQuestion>true</IsMathQuestion>
+    <MathInputStr>primefact 189202094</MathInputStr>
+  </TriviaQuestion>
+
+  <TriviaQuestion>
+    <Question>How many prime numbers are between 0 and 1000?</Question>
+    <PossibleAnswers>
+      <string>170</string>
+      <string>104</string>
+      <string>192</string>
+      <string>146</string>
+    </PossibleAnswers>
+    <NumAnswers>4</NumAnswers>
+    <CorrectAnswerIndex>0</CorrectAnswerIndex>
+    <IsMathQuestion>true</IsMathQuestion>
+    <MathInputStr>count primes in range [0,1000]</MathInputStr>
+  </TriviaQuestion>
+
+  <TriviaQuestion>
+    <Question>What is the greatest common factor of 81,54, and 243?</Question>
+    <PossibleAnswers>
+      <string>27</string>
+      <string>3</string>
+      <string>1</string>
+      <string>9</string>
+    </PossibleAnswers>
+    <NumAnswers>4</NumAnswers>
+    <CorrectAnswerIndex>0</CorrectAnswerIndex>
+    <IsMathQuestion>true</IsMathQuestion>
+    <MathInputStr>gcf 81,54,243</MathInputStr>
+  </TriviaQuestion>
+
+  <TriviaQuestion>
+    <Question>log(2x+10)=2</Question>
+    <PossibleAnswers>
+      <string>x=45</string>
+      <string>x=30</string>
+      <string>x=60</string>
+      <string>x=15</string>
+    </PossibleAnswers>
+    <NumAnswers>4</NumAnswers>
+    <CorrectAnswerIndex>0</CorrectAnswerIndex>
+    <IsMathQuestion>true</IsMathQuestion>
+    <MathInputStr>log(2x+10)=2</MathInputStr>
+  </TriviaQuestion>
+
+  <TriviaQuestion>
+    <Question>cos(5x+1)=1</Question>
+    <PossibleAnswers>
+      <string>x=-0.2</string>
+      <string>x=0.2</string>
+      <string>x=1.5</string>
+      <string>x=-1.5</string>
+    </PossibleAnswers>
+    <NumAnswers>4</NumAnswers>
+    <CorrectAnswerIndex>0</CorrectAnswerIndex>
+    <IsMathQuestion>true</IsMathQuestion>
+    <MathInputStr>cos(5*x+1)=1</MathInputStr>
+  </TriviaQuestion>
+
+  <TriviaQuestion>
+    <Question>d/dx(cos(sin(yx^2)+2y)+6zx^5)</Question>
+    <PossibleAnswers>
+      <string>-2yxcos(yx^2)sin(sin(yx^2)+2y)+30zx^4</string>
+      <string>-2yxcos(yx^2)sin(cos(yx^2)+2y)+30zx^4</string>
+      <string>-2yxcos(yx)sin(sin(yx^2)+2y)+30x^4</string>
+      <string>-2yxsin(yx^3)sin(cos(yx^2)+2y)+30zx^4</string>
+    </PossibleAnswers>
+    <NumAnswers>4</NumAnswers>
+    <CorrectAnswerIndex>0</CorrectAnswerIndex>
+    <IsMathQuestion>true</IsMathQuestion>
+    <MathInputStr>d/dx(cos(sin(y*x^2)+2*y)+6*z*x^5)</MathInputStr>
+  </TriviaQuestion>
+
+  <TriviaQuestion>
+    <Question>(4cos(x+1)+2y)^2</Question>
+    <PossibleAnswers>
+      <string>16cos(x+1)^2+16ycos(x+1)+4y^2</string>
+      <string>16cos(x+1)^2+4y^2</string>
+      <string>8cos(x+1)^2+16ycos(x+1)+2y+4y^2</string>
+      <string>16cos(x+1)^2+8ycos(x+1)+4y^2</string>
+    </PossibleAnswers>
+    <NumAnswers>4</NumAnswers>
+    <CorrectAnswerIndex>0</CorrectAnswerIndex>
+    <IsMathQuestion>true</IsMathQuestion>
+    <MathInputStr>4*cos(x+1)+2*y)^2</MathInputStr>
+  </TriviaQuestion>
+
+  <TriviaQuestion>
+    <Question>Solve for x: (2y-7)/(5x+4)=18</Question>
+    <PossibleAnswers>
+      <string>(2y-79)/90</string>
+      <string>(2x-79)/90</string>
+      <string>(124y-42)/126</string>
+      <string>(20y+28)/10</string>
+    </PossibleAnswers>
+    <NumAnswers>4</NumAnswers>
+    <CorrectAnswerIndex>0</CorrectAnswerIndex>
+    <IsMathQuestion>true</IsMathQuestion>
+    <MathInputStr>(2*y-7)/(5*x+4)=18</MathInputStr>
+  </TriviaQuestion>
+  
+</ArrayOfTriviaQuestion>

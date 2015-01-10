@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DialogData>
+
+  <DialogChain id="orbletSorryDialog">
+
+    <Dialog id="startDialog">
+      <AISpeech speakingID="helper orblet">Can't teleport there right now.</AISpeech>
+    </Dialog>
+
+  </DialogChain>
+
+  <DialogChain id="helpingDialog">
+    
+    <Dialog id="startDialog">
+      <AISpeech speakingID="helper orblet">What can I do for you?</AISpeech>
+      <PlayerResponses>
+        <Response>
+          <Text>I need more arrows.</Text>
+          <ToDialog id="buyArrowsDialog" />
+        </Response>
+        <Response>
+          <Text>I need a secret.</Text>
+          <ToDialog id="buySecretsDialog" />
+        </Response>
+        <Response>
+          <Text>I need to find the wumpus.</Text>
+          <ToDialog id="findWumpusDialog" />
+        </Response>
+      </PlayerResponses>
+    </Dialog>
+
+    <Dialog id="buyArrowsDialog">
+      <AISpeech speakingID="helper orblet">That's going to cost you... Get two out of three trivia questions correct...</AISpeech>
+      <PlayerResponses>
+        <Response>
+          <Text>Fine.</Text>
+          <FiredEvent id="buy arrow" />
+        </Response>
+        <Response>
+          <Text>Actually I will reconsider.</Text>
+          <ToDialog id="startDialog" />
+        </Response>
+      </PlayerResponses>
+    </Dialog>
+
+    <Dialog id="buySecretsDialog">
+      <AISpeech speakingID="helper orblet">That's going to cost you... Get two out of three trivia questions correct...</AISpeech>
+      <PlayerResponses>
+        <Response>
+          <Text>Fine.</Text>
+          <FiredEvent id="buy secret" />
+        </Response>
+        <Response>
+          <Text>Actually I will reconsider.</Text>
+          <ToDialog id="startDialog" />
+        </Response>
+      </PlayerResponses>
+    </Dialog>
+
+    <Dialog id="findWumpusDialog">
+      <AISpeech speakingID="helper orblet">Well that's going to cost big time... Get five out of seven trivia questions correct...</AISpeech>
+      <PlayerResponses>
+        <Response>
+          <Text>Fine.</Text>
+          <FiredEvent id="buy guidelines" />
+        </Response>
+        <Response>
+          <Text>Actually I will reconsider.</Text>
+          <ToDialog id="startDialog" />
+        </Response>
+      </PlayerResponses>
+    </Dialog>
+    
+  </DialogChain>
+
+  <DialogChain id="triviaCorrectArrowsDialog">
+    <Dialog id="startDialog">
+      <AISpeech speakingID="helper orblet">Well done. Here are 3 arrows.</AISpeech>
+    </Dialog>
+  </DialogChain>
+
+  <DialogChain id="triviaCorrectSecretDialog">
+    <Dialog id="startDialog">
+      <AISpeech speakingID="helper orblet">Well done. Here is a secret.</AISpeech>
+      <PlayerResponses>
+        <Response>
+          <Text>Thank you.</Text>
+          <FiredEvent id="dialog finished" />
+        </Response>
+      </PlayerResponses>
+    </Dialog>
+  </DialogChain>
+
+  <DialogChain id="triviaCorrectGuidelinesDialog">
+    <Dialog id="startDialog">
+      <AISpeech speakingID="helper orblet">Alright I can guide you for two minutes.</AISpeech>
+      <PlayerResponses>
+        <Text>Thank you.</Text>
+      </PlayerResponses>
+    </Dialog>
+  </DialogChain>
+
+  <DialogChain id="incorrectTriviaDialog">
+    <Dialog id="startDialog">
+      <AISpeech speakingID="helper orblet">You're going to have to try harder to earn my assistance.</AISpeech>
+    </Dialog>
+  </DialogChain>
+
+  <DialogChain id="pitTriviaDialog">
+    <Dialog id="startDialog">
+      <AISpeech speakingID="helper orblet">The only way you're getting out of this one is to answer two out of three trivia questions correct.</AISpeech>
+      <PlayerResponses>
+        <Response>
+          <Text>Okay.</Text>
+          <FiredEvent id="dialog finished" />
+        </Response>
+      </PlayerResponses>
+    </Dialog>
+  </DialogChain>
+
+  <DialogChain id="pitTriviaCorrectDialog">
+    <Dialog id="startDialog">
+      <AISpeech speakingID="helper orblet">Well played, narrowly avoided.</AISpeech>
+    </Dialog>
+  </DialogChain>
+
+  <DialogChain id="pitTriviaIncorrectDialog">
+    <Dialog id="startDialog">
+      <AISpeech speakingID="helper orblet">I'm sorry but we all must pay the price for your failures.</AISpeech>
+    </Dialog>
+  </DialogChain>
+
+</DialogData>

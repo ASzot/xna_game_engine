@@ -1,0 +1,476 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MapSaveData>
+  <DoorConnections>
+    <DoorConnection To="3" From="2">true</DoorConnection>
+    <DoorConnection To="2" From="11">false</DoorConnection>
+    <DoorConnection To="12" From="2">false</DoorConnection>
+    <DoorConnection To="1" From="2">false</DoorConnection>
+    <DoorConnection To="14" From="1">false</DoorConnection>
+    <DoorConnection To="1" From="14">false</DoorConnection>
+    <DoorConnection To="10" From="1">false</DoorConnection>
+    <DoorConnection To="4" From="1">true</DoorConnection>
+    <DoorConnection To="3" From="5">true</DoorConnection>
+    <DoorConnection To="3" From="12">true</DoorConnection>
+    <DoorConnection To="13" From="3">false</DoorConnection>
+    <DoorConnection To="5" From="4">true</DoorConnection>
+    <DoorConnection To="5" From="13">true</DoorConnection>
+    <DoorConnection To="15" From="5">false</DoorConnection>
+    <DoorConnection To="1" From="4">true</DoorConnection>
+    <DoorConnection To="4" From="15">false</DoorConnection>
+    <DoorConnection To="14" From="4">false</DoorConnection>
+    <DoorConnection To="8" From="7">false</DoorConnection>
+    <DoorConnection To="8" From="2">true</DoorConnection>
+    <DoorConnection To="3" From="8">false</DoorConnection>
+    <DoorConnection To="27" From="8">true</DoorConnection>
+    <DoorConnection To="28" From="8">false</DoorConnection>
+    <DoorConnection To="6" From="8">false</DoorConnection>
+    <DoorConnection To="6" From="1">true</DoorConnection>
+    <DoorConnection To="2" From="6">true</DoorConnection>
+    <DoorConnection To="26" From="6">true</DoorConnection>
+    <DoorConnection To="10" From="6">false</DoorConnection>
+    <DoorConnection To="27" From="6">false</DoorConnection>
+    <DoorConnection To="30" From="9">false</DoorConnection>
+    <DoorConnection To="7" From="3">false</DoorConnection>
+    <DoorConnection To="5" From="7">false</DoorConnection>
+    <DoorConnection To="28" From="7">false</DoorConnection>
+    <DoorConnection To="30" From="7">false</DoorConnection>
+    <DoorConnection To="10" From="9">true</DoorConnection>
+    <DoorConnection To="9" From="5">false</DoorConnection>
+    <DoorConnection To="4" From="9">false</DoorConnection>
+    <DoorConnection To="7" From="9">false</DoorConnection>
+    <DoorConnection To="29" From="9">true</DoorConnection>
+    <DoorConnection To="6" From="10">false</DoorConnection>
+    <DoorConnection To="10" From="4">true</DoorConnection>
+    <DoorConnection To="1" From="10">false</DoorConnection>
+    <DoorConnection To="29" From="10">false</DoorConnection>
+    <DoorConnection To="26" From="10">false</DoorConnection>
+    <DoorConnection To="13" From="12">false</DoorConnection>
+    <DoorConnection To="17" From="12">false</DoorConnection>
+    <DoorConnection To="18" From="12">true</DoorConnection>
+    <DoorConnection To="11" From="12">true</DoorConnection>
+    <DoorConnection To="16" From="11">false</DoorConnection>
+    <DoorConnection To="17" From="11">true</DoorConnection>
+    <DoorConnection To="1" From="11">true</DoorConnection>
+    <DoorConnection To="14" From="11">false</DoorConnection>
+    <DoorConnection To="15" From="13">false</DoorConnection>
+    <DoorConnection To="18" From="13">true</DoorConnection>
+    <DoorConnection To="20" From="13">true</DoorConnection>
+    <DoorConnection To="15" From="14">true</DoorConnection>
+    <DoorConnection To="20" From="15">false</DoorConnection>
+    <DoorConnection To="19" From="15">false</DoorConnection>
+    <DoorConnection To="11" From="14">false</DoorConnection>
+    <DoorConnection To="19" From="14">true</DoorConnection>
+    <DoorConnection To="16" From="14">true</DoorConnection>
+    <DoorConnection To="18" From="17">true</DoorConnection>
+    <DoorConnection To="21" From="17">false</DoorConnection>
+    <DoorConnection To="22" From="17">false</DoorConnection>
+    <DoorConnection To="17" From="16">true</DoorConnection>
+    <DoorConnection To="24" From="16">false</DoorConnection>
+    <DoorConnection To="21" From="16">true</DoorConnection>
+    <DoorConnection To="14" From="16">true</DoorConnection>
+    <DoorConnection To="19" From="16">false</DoorConnection>
+    <DoorConnection To="18" From="20">false</DoorConnection>
+    <DoorConnection To="22" From="18">false</DoorConnection>
+    <DoorConnection To="23" From="18">false</DoorConnection>
+    <DoorConnection To="20" From="19">true</DoorConnection>
+    <DoorConnection To="23" From="20">true</DoorConnection>
+    <DoorConnection To="25" From="20">false</DoorConnection>
+    <DoorConnection To="16" From="19">false</DoorConnection>
+    <DoorConnection To="25" From="19">false</DoorConnection>
+    <DoorConnection To="24" From="19">true</DoorConnection>
+    <DoorConnection To="23" From="22">true</DoorConnection>
+    <DoorConnection To="22" From="27">false</DoorConnection>
+    <DoorConnection To="28" From="22">true</DoorConnection>
+    <DoorConnection To="21" From="22">true</DoorConnection>
+    <DoorConnection To="21" From="26">true</DoorConnection>
+    <DoorConnection To="27" From="21">false</DoorConnection>
+    <DoorConnection To="16" From="24">false</DoorConnection>
+    <DoorConnection To="24" From="21">false</DoorConnection>
+    <DoorConnection To="23" From="25">false</DoorConnection>
+    <DoorConnection To="23" From="28">false</DoorConnection>
+    <DoorConnection To="30" From="23">true</DoorConnection>
+    <DoorConnection To="25" From="24">true</DoorConnection>
+    <DoorConnection To="25" From="30">false</DoorConnection>
+    <DoorConnection To="29" From="25">false</DoorConnection>
+    <DoorConnection To="21" From="24">false</DoorConnection>
+    <DoorConnection To="24" From="29">true</DoorConnection>
+    <DoorConnection To="26" From="24">false</DoorConnection>
+    <DoorConnection To="28" From="27">true</DoorConnection>
+    <DoorConnection To="6" From="27">false</DoorConnection>
+    <DoorConnection To="8" From="27">true</DoorConnection>
+    <DoorConnection To="27" From="26">true</DoorConnection>
+    <DoorConnection To="10" From="26">false</DoorConnection>
+    <DoorConnection To="6" From="26">true</DoorConnection>
+    <DoorConnection To="24" From="26">false</DoorConnection>
+    <DoorConnection To="29" From="26">false</DoorConnection>
+    <DoorConnection To="28" From="30">true</DoorConnection>
+    <DoorConnection To="8" From="28">false</DoorConnection>
+    <DoorConnection To="7" From="28">false</DoorConnection>
+    <DoorConnection To="29" From="30">true</DoorConnection>
+    <DoorConnection To="7" From="30">false</DoorConnection>
+    <DoorConnection To="9" From="30">false</DoorConnection>
+    <DoorConnection To="26" From="29">false</DoorConnection>
+    <DoorConnection To="9" From="29">true</DoorConnection>
+    <DoorConnection To="10" From="29">false</DoorConnection>
+  </DoorConnections>
+  <MapGraph>
+    <GraphNodes>
+      <Node>
+        <Pos>
+          <X>-27.7</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </Pos>
+        <Index>0</Index>
+      </Node>
+      <Node>
+        <Pos>
+          <X>1.907349E-06</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </Pos>
+        <Index>1</Index>
+      </Node>
+      <Node>
+        <Pos>
+          <X>27.7</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </Pos>
+        <Index>2</Index>
+      </Node>
+      <Node>
+        <Pos>
+          <X>83.1</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </Pos>
+        <Index>3</Index>
+      </Node>
+      <Node>
+        <Pos>
+          <X>55.4</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </Pos>
+        <Index>4</Index>
+      </Node>
+      <Node>
+        <Pos>
+          <X>-13.85</X>
+          <Y>0</Y>
+          <Z>23.7</Z>
+        </Pos>
+        <Index>5</Index>
+      </Node>
+      <Node>
+        <Pos>
+          <X>41.55</X>
+          <Y>0</Y>
+          <Z>23.7</Z>
+        </Pos>
+        <Index>6</Index>
+      </Node>
+      <Node>
+        <Pos>
+          <X>13.85</X>
+          <Y>0</Y>
+          <Z>23.7</Z>
+        </Pos>
+        <Index>7</Index>
+      </Node>
+      <Node>
+        <Pos>
+          <X>69.25</X>
+          <Y>0</Y>
+          <Z>23.7</Z>
+        </Pos>
+        <Index>8</Index>
+      </Node>
+      <Node>
+        <Pos>
+          <X>96.95</X>
+          <Y>0</Y>
+          <Z>23.7</Z>
+        </Pos>
+        <Index>9</Index>
+      </Node>
+      <Node>
+        <Pos>
+          <X>-13.7</X>
+          <Y>0</Y>
+          <Z>-23.85</Z>
+        </Pos>
+        <Index>10</Index>
+      </Node>
+      <Node>
+        <Pos>
+          <X>14</X>
+          <Y>0</Y>
+          <Z>-23.85</Z>
+        </Pos>
+        <Index>11</Index>
+      </Node>
+      <Node>
+        <Pos>
+          <X>41.7</X>
+          <Y>0</Y>
+          <Z>-23.85</Z>
+        </Pos>
+        <Index>12</Index>
+      </Node>
+      <Node>
+        <Pos>
+          <X>97.1</X>
+          <Y>0</Y>
+          <Z>-23.85</Z>
+        </Pos>
+        <Index>13</Index>
+      </Node>
+      <Node>
+        <Pos>
+          <X>69.4</X>
+          <Y>0</Y>
+          <Z>-23.85</Z>
+        </Pos>
+        <Index>14</Index>
+      </Node>
+      <Node>
+        <Pos>
+          <X>-27.8</X>
+          <Y>0</Y>
+          <Z>-47.65002</Z>
+        </Pos>
+        <Index>15</Index>
+      </Node>
+      <Node>
+        <Pos>
+          <X>-0.0999982</X>
+          <Y>0</Y>
+          <Z>-47.65002</Z>
+        </Pos>
+        <Index>16</Index>
+      </Node>
+      <Node>
+        <Pos>
+          <X>27.6</X>
+          <Y>0</Y>
+          <Z>-47.65002</Z>
+        </Pos>
+        <Index>17</Index>
+      </Node>
+      <Node>
+        <Pos>
+          <X>83.00002</X>
+          <Y>0</Y>
+          <Z>-47.65002</Z>
+        </Pos>
+        <Index>18</Index>
+      </Node>
+      <Node>
+        <Pos>
+          <X>55.30002</X>
+          <Y>0</Y>
+          <Z>-47.65001</Z>
+        </Pos>
+        <Index>19</Index>
+      </Node>
+      <Node>
+        <Pos>
+          <X>-14.1</X>
+          <Y>0</Y>
+          <Z>-71.55003</Z>
+        </Pos>
+        <Index>20</Index>
+      </Node>
+      <Node>
+        <Pos>
+          <X>13.6</X>
+          <Y>0</Y>
+          <Z>-71.55003</Z>
+        </Pos>
+        <Index>21</Index>
+      </Node>
+      <Node>
+        <Pos>
+          <X>41.3</X>
+          <Y>0</Y>
+          <Z>-71.55003</Z>
+        </Pos>
+        <Index>22</Index>
+      </Node>
+      <Node>
+        <Pos>
+          <X>96.70002</X>
+          <Y>0</Y>
+          <Z>-71.55003</Z>
+        </Pos>
+        <Index>23</Index>
+      </Node>
+      <Node>
+        <Pos>
+          <X>69.00002</X>
+          <Y>0</Y>
+          <Z>-71.55003</Z>
+        </Pos>
+        <Index>24</Index>
+      </Node>
+      <Node>
+        <Pos>
+          <X>-28</X>
+          <Y>0</Y>
+          <Z>-95.2</Z>
+        </Pos>
+        <Index>25</Index>
+      </Node>
+      <Node>
+        <Pos>
+          <X>-0.3</X>
+          <Y>0</Y>
+          <Z>-95.2</Z>
+        </Pos>
+        <Index>26</Index>
+      </Node>
+      <Node>
+        <Pos>
+          <X>27.4</X>
+          <Y>0</Y>
+          <Z>-95.2</Z>
+        </Pos>
+        <Index>27</Index>
+      </Node>
+      <Node>
+        <Pos>
+          <X>82.80001</X>
+          <Y>0</Y>
+          <Z>-95.2</Z>
+        </Pos>
+        <Index>28</Index>
+      </Node>
+      <Node>
+        <Pos>
+          <X>55.10001</X>
+          <Y>0</Y>
+          <Z>-95.2</Z>
+        </Pos>
+        <Index>29</Index>
+      </Node>
+    </GraphNodes>
+  </MapGraph>
+  <RoomInfos>
+    <RoomInfo Room="1">
+      <Type>SceneOccupied</Type>
+    </RoomInfo>
+    <RoomInfo Room="2">
+      <Type>SceneOccupied</Type>
+    </RoomInfo>
+    <RoomInfo Room="3">
+      <Type>SceneOccupied</Type>
+    </RoomInfo>
+    <RoomInfo Room="4">
+      <Type>SceneOccupied</Type>
+    </RoomInfo>
+    <RoomInfo Room="5">
+      <Type>SceneOccupied</Type>
+    </RoomInfo>
+    <RoomInfo Room="6">
+      <Type>SceneOccupied</Type>
+    </RoomInfo>
+    <RoomInfo Room="7">
+      <Type>SceneOccupied</Type>
+    </RoomInfo>
+    <RoomInfo Room="8">
+      <Type>SceneOccupied</Type>
+    </RoomInfo>
+    <RoomInfo Room="9">
+      <Type>SceneOccupied</Type>
+    </RoomInfo>
+    <RoomInfo Room="10">
+      <Type>SceneOccupied</Type>
+    </RoomInfo>
+    <RoomInfo Room="11">
+      <Type>SceneOccupied</Type>
+    </RoomInfo>
+    <RoomInfo Room="12">
+      <Type>SceneOccupied</Type>
+    </RoomInfo>
+    <RoomInfo Room="13">
+      <Type>SceneOccupied</Type>
+    </RoomInfo>
+    <RoomInfo Room="14">
+      <Type>SceneOccupied</Type>
+    </RoomInfo>
+    <RoomInfo Room="15">
+      <Type>PitHazard</Type>
+    </RoomInfo>
+    <RoomInfo Room="16">
+      <Type>SceneOccupied</Type>
+    </RoomInfo>
+    <RoomInfo Room="17">
+      <Type>SceneOccupied</Type>
+    </RoomInfo>
+    <RoomInfo Room="18">
+      <Type>PitHazard</Type>
+    </RoomInfo>
+    <RoomInfo Room="19">
+      <Type>SceneOccupied</Type>
+    </RoomInfo>
+    <RoomInfo Room="20">
+      <Type>SceneOccupied</Type>
+    </RoomInfo>
+    <RoomInfo Room="21">
+      <Type>SceneOccupied</Type>
+    </RoomInfo>
+    <RoomInfo Room="22">
+      <Type>SceneOccupied</Type>
+    </RoomInfo>
+    <RoomInfo Room="23">
+      <Type>SceneOccupied</Type>
+    </RoomInfo>
+    <RoomInfo Room="24">
+      <Type>SceneOccupied</Type>
+    </RoomInfo>
+    <RoomInfo Room="25">
+      <Type>SceneOccupied</Type>
+    </RoomInfo>
+    <RoomInfo Room="26">
+      <Type>SceneOccupied</Type>
+    </RoomInfo>
+    <RoomInfo Room="27">
+      <Type>SceneOccupied</Type>
+    </RoomInfo>
+    <RoomInfo Room="28">
+      <Type>SceneOccupied</Type>
+    </RoomInfo>
+    <RoomInfo Room="29">
+      <Type>SceneOccupied</Type>
+    </RoomInfo>
+    <RoomInfo Room="30">
+      <Type>SceneOccupied</Type>
+    </RoomInfo>
+  </RoomInfos>
+  <PowerUps>
+    <HealthPowerUp>
+      <RoomNum>20</RoomNum>
+    </HealthPowerUp>
+    <HealthPowerUp>
+      <RoomNum>3</RoomNum>
+    </HealthPowerUp>
+  </PowerUps>
+  <TeleporterOrblets>
+    <TeleporterOrblet RoomNum="22" />
+    <TeleporterOrblet RoomNum="5" />
+  </TeleporterOrblets>
+
+  <EffectSaveData>
+    <FlashingLights room="1">
+      <light>tube light light R:1</light>
+      <light>spot light R: 1</light>
+      <freq>2000</freq>
+      <dur>200</dur>
+    </FlashingLights>
+  </EffectSaveData>
+
+  <Player RoomNum="2" />
+  <Wumpus RoomNum="25" />
+</MapSaveData>

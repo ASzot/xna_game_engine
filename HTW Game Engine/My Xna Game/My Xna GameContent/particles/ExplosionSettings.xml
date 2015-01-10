@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="RenderingSystem.RendererImpl.ParticleSettings">
+    <BlendState>Additive</BlendState>
+    <TextureName>particles/explosion</TextureName>
+    <MaxParticles>100</MaxParticles>
+    <Duration>PT2S</Duration>
+    <DurationRandomness>1</DurationRandomness>
+    <EmissionRate>6</EmissionRate>
+    <EmitterVelocitySensitivity>0.1</EmitterVelocitySensitivity>
+    <MinHorizontalVelocity>0.25</MinHorizontalVelocity>
+    <MaxHorizontalVelocity>0.3</MaxHorizontalVelocity>
+    <MinVerticalVelocity>-0.2</MinVerticalVelocity>
+    <MaxVerticalVelocity>0.2</MaxVerticalVelocity>
+    <Gravity>0 0 0</Gravity>
+    <EndVelocity>0</EndVelocity>
+    <MinColor>FF808080</MinColor>
+    <MaxColor>FFA9A9A9</MaxColor>
+    <MinRotateSpeed>-1</MinRotateSpeed>
+    <MaxRotateSpeed>1</MaxRotateSpeed>
+    <MinStartSize>1</MinStartSize>
+    <MaxStartSize>1</MaxStartSize>
+    <MinEndSize>2</MinEndSize>
+    <MaxEndSize>3</MaxEndSize>
+  </Asset>
+</XnaContent>

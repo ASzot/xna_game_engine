@@ -1,0 +1,520 @@
+<?xml version="1.0"?>
+<ArrayOfTriviaQuestion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TriviaQuestion>
+    <Question>Which of these is a meme related to Eminem? </Question>
+    <PossibleAnswers>
+      <string>Dad's Fettuccine</string>
+      <string>Mom's Spaghetti</string>
+      <string>Uncle's Lasagna</string>
+      <string>Little Brother's Linguine </string>
+    </PossibleAnswers>
+    <NumAnswers>4</NumAnswers>
+    <CorrectAnswerIndex>1</CorrectAnswerIndex>
+  </TriviaQuestion>
+  <TriviaQuestion>
+    <Question>True or False: The Wumpus is also the name of a short lived dance craze.</Question>
+    <PossibleAnswers>
+      <string>True </string>
+      <string>False </string>
+    </PossibleAnswers>
+    <NumAnswers>2</NumAnswers>
+    <CorrectAnswerIndex>0</CorrectAnswerIndex>
+  </TriviaQuestion>
+  <TriviaQuestion>
+    <Question>What was the player called in the original Hunt The Wumpus?</Question>
+    <PossibleAnswers>
+      <string>Player</string>
+      <string>Protagonist</string>
+      <string>Agent</string>
+      <string>Hunter</string>
+    </PossibleAnswers>
+    <NumAnswers>4</NumAnswers>
+    <CorrectAnswerIndex>2</CorrectAnswerIndex>
+  </TriviaQuestion>
+  <TriviaQuestion>
+    <Question>How many Hunt The Wumpus games were written?</Question>
+    <PossibleAnswers>
+      <string>3</string>
+      <string>2</string>
+      <string>1</string>
+      <string>Blastoff</string>
+    </PossibleAnswers>
+    <NumAnswers>4</NumAnswers>
+    <CorrectAnswerIndex>0</CorrectAnswerIndex>
+  </TriviaQuestion>
+  <TriviaQuestion>
+    <Question>True Or False: The creator of Hunt The Wumpus was a moderately successful opera singer.</Question>
+    <PossibleAnswers>
+      <string>True</string>
+      <string>False</string>
+    </PossibleAnswers>
+    <NumAnswers>2</NumAnswers>
+    <CorrectAnswerIndex>0</CorrectAnswerIndex>
+  </TriviaQuestion>
+  <TriviaQuestion>
+    <Question>How is the feet of the original Wumpus described?</Question>
+    <PossibleAnswers>
+      <string>As having claws</string>
+      <string>As having suction cups</string>
+      <string>As not having feet</string>
+      <string>As tentacles </string>
+    </PossibleAnswers>
+    <NumAnswers>4</NumAnswers>
+    <CorrectAnswerIndex>1</CorrectAnswerIndex>
+  </TriviaQuestion>
+  <TriviaQuestion>
+    <Question>True or False: The Wampas in Star Wars were based off of the Wumpus.</Question>
+    <PossibleAnswers>
+      <string>True</string>
+      <string>False</string>
+    </PossibleAnswers>
+    <NumAnswers>2</NumAnswers>
+    <CorrectAnswerIndex>1</CorrectAnswerIndex>
+  </TriviaQuestion>
+  <TriviaQuestion>
+    <Question>What was the genre of Hunt The Wumpus originally?</Question>
+    <PossibleAnswers>
+      <string>Adventure Game</string>
+      <string>Action Adventure Game</string>
+      <string>Survival Horror</string>
+      <string>Puzzle</string>
+    </PossibleAnswers>
+    <NumAnswers>4</NumAnswers>
+    <CorrectAnswerIndex>0</CorrectAnswerIndex>
+  </TriviaQuestion>
+  <TriviaQuestion>
+    <Question>True or False: The trivia is the worst part of this game.</Question>
+    <PossibleAnswers>
+      <string>True</string>
+      <string>False</string>
+    </PossibleAnswers>
+    <NumAnswers>2</NumAnswers>
+    <CorrectAnswerIndex>0</CorrectAnswerIndex>
+  </TriviaQuestion>
+  <TriviaQuestion>
+    <Question>Complete the Pattern: MTWTFS</Question>
+    <PossibleAnswers>
+      <string>M</string>
+      <string>T</string>
+      <string>F</string>
+      <string>S</string>
+    </PossibleAnswers>
+    <NumAnswers>4</NumAnswers>
+    <CorrectAnswerIndex>3</CorrectAnswerIndex>
+  </TriviaQuestion>
+  <TriviaQuestion>
+    <Question>Complete the pattern: OTTFFSSE</Question>
+    <PossibleAnswers>
+      <string>O</string>
+      <string>T</string>
+      <string>N</string>
+      <string>E</string>
+    </PossibleAnswers>
+    <NumAnswers>4</NumAnswers>
+    <CorrectAnswerIndex>3</CorrectAnswerIndex>
+  </TriviaQuestion>
+  <TriviaQuestion>
+    <Question>The creator of Hunt The Wumpus also designed a "new form of entertainment" called:</Question>
+    <PossibleAnswers>
+      <string>Sense System</string>
+      <string>Immersion Room</string>
+      <string>Intellivision</string>
+      <string>Comfort House</string>
+    </PossibleAnswers>
+    <NumAnswers>4</NumAnswers>
+    <CorrectAnswerIndex>3</CorrectAnswerIndex>
+  </TriviaQuestion>
+  <TriviaQuestion>
+    <Question>How many different ways are there to make change for a dollar?</Question>
+    <PossibleAnswers>
+      <string>14</string>
+      <string>187</string>
+      <string>293</string>
+      <string>520</string>
+    </PossibleAnswers>
+    <NumAnswers>4</NumAnswers>
+    <CorrectAnswerIndex>2</CorrectAnswerIndex>
+  </TriviaQuestion>
+  <TriviaQuestion>
+    <Question>What was Google oriningally named?</Question>
+    <PossibleAnswers>
+      <string>SearchNet</string>
+      <string>EyeRub</string>
+      <string>BackRub</string>
+      <string>ScoutNet</string>
+    </PossibleAnswers>
+    <NumAnswers>4</NumAnswers>
+    <CorrectAnswerIndex>2</CorrectAnswerIndex>
+  </TriviaQuestion>
+  <TriviaQuestion>
+    <Question>Which Seasame street character is the only one to testify before Congress?</Question>
+    <PossibleAnswers>
+      <string>Elmo</string>
+      <string>Big Bird</string>
+      <string>Bert</string>
+      <string>Ernie</string>
+    </PossibleAnswers>
+    <NumAnswers>4</NumAnswers>
+    <CorrectAnswerIndex>0</CorrectAnswerIndex>
+  </TriviaQuestion>
+  <TriviaQuestion>
+    <Question>Roughly how many ingredients are in the McRib?</Question>
+    <PossibleAnswers>
+      <string>30</string>
+      <string>70</string>
+      <string>100</string>
+      <string>130</string>
+    </PossibleAnswers>
+    <NumAnswers>4</NumAnswers>
+    <CorrectAnswerIndex>1</CorrectAnswerIndex>
+  </TriviaQuestion>
+  <TriviaQuestion>
+      <Question>True or False: You can lead a cow downstairs but not upstairs.</Question>
+      <PossibleAnswers>
+        <string>True</string>
+        <string>False</string>
+      </PossibleAnswers>
+      <NumAnswers>2</NumAnswers>
+      <CorrectAnswerIndex>1</CorrectAnswerIndex>
+    </TriviaQuestion>
+  <TriviaQuestion>
+      <Question>What kind of crossbow are you using?</Question>
+      <PossibleAnswers>
+        <string>Cranequin</string>
+        <string>Recurve</string>
+        <string>Compound</string>
+        <string>Pull Lever</string>
+      </PossibleAnswers>
+      <NumAnswers>4</NumAnswers>
+      <CorrectAnswerIndex>2</CorrectAnswerIndex>
+    </TriviaQuestion>
+  <TriviaQuestion>
+      <Question>When you enter a room with gold in the original Hunt the Wupmus game what do you perceive?</Question>
+      <PossibleAnswers>
+        <string>A glitter</string>
+        <string>A glimmer</string>
+        <string>A bump</string>
+        <string>A breeze</string>
+      </PossibleAnswers>
+      <NumAnswers>4</NumAnswers>
+      <CorrectAnswerIndex>0</CorrectAnswerIndex>
+    </TriviaQuestion>
+  <TriviaQuestion>
+      <Question>Did the Zork games come before or after Hunt the Wumpus?</Question>
+      <PossibleAnswers>
+        <string>Before</string>
+        <string>After</string>
+      </PossibleAnswers>
+      <NumAnswers>2</NumAnswers>
+      <CorrectAnswerIndex>0</CorrectAnswerIndex>
+    </TriviaQuestion>
+  <TriviaQuestion>
+        <Question>True or False: A version of Hunt the Wumpus comes default in several Linux operating systems.</Question>
+              <PossibleAnswers>
+        <string>True</string>
+        <string>False</string>
+      </PossibleAnswers>
+        <NumAnswers>4</NumAnswers>
+        <CorrectAnswerIndex>0</CorrectAnswerIndex>
+      </TriviaQuestion>
+  <TriviaQuestion>
+        <Question>True or False: In an episode of Seinfeld, Jerry can be seen playing Hunt the Wumpus.</Question>
+              <PossibleAnswers>
+        <string>True</string>
+        <string>False</string>
+      </PossibleAnswers>
+        <NumAnswers>2</NumAnswers>
+        <CorrectAnswerIndex>1</CorrectAnswerIndex>
+      </TriviaQuestion>
+  <TriviaQuestion>
+        <Question>What is the average temperature in Death Valley?</Question>
+                  <PossibleAnswers>
+        <string>65.3 F</string>
+        <string>77.2 F</string>
+        <string>97.6 F</string>
+        <string>112.5 F</string>
+      </PossibleAnswers>
+        <NumAnswers>4</NumAnswers>
+        <CorrectAnswerIndex>1</CorrectAnswerIndex>
+      </TriviaQuestion>
+  <TriviaQuestion>
+        <Question>How many steps are in the Eiffel Tower?</Question>
+                  <PossibleAnswers>
+        <string>936</string>
+        <string>1,532</string>
+        <string>1,792</string>
+        <string>2,351</string>
+      </PossibleAnswers>
+        <NumAnswers>4</NumAnswers>
+        <CorrectAnswerIndex>2</CorrectAnswerIndex>
+      </TriviaQuestion>
+  <TriviaQuestion>
+        <Question>True of False: Cauliflower is the only vegetable that is a flower.</Question>
+              <PossibleAnswers>
+        <string>True</string>
+        <string>False</string>
+      </PossibleAnswers>
+        <NumAnswers>2</NumAnswers>
+        <CorrectAnswerIndex>1</CorrectAnswerIndex>
+      </TriviaQuestion>
+  <TriviaQuestion>
+    <Question>What is the tiny plastic covering of the tip of a shoelace called?</Question>
+    <PossibleAnswers>
+      <string>An inglet</string>
+      <string>An aglet</string>
+      <string>An iglet</string>
+      <string>An anglet</string>
+    </PossibleAnswers>
+    <NumAnswers>4</NumAnswers>
+    <CorrectAnswerIndex>1</CorrectAnswerIndex>
+  </TriviaQuestion>
+  <TriviaQuestion>
+    <Question>What was Trivia NOT a Roman goddess of?</Question>
+    <PossibleAnswers>
+      <string>Sorcery</string>
+      <string>Witchcraft</string>
+      <string>Crossroads</string>
+      <string>Knowledge</string>
+    </PossibleAnswers>
+    <NumAnswers>4</NumAnswers>
+    <CorrectAnswerIndex>3</CorrectAnswerIndex>
+  </TriviaQuestion>
+  <TriviaQuestion>
+    <Question>Finish the Phrase: Hunt The _______</Question>
+    <PossibleAnswers>
+      <string>Crumpet</string>
+      <string>Dumpus</string>
+      <string>Bill Cosby</string>
+      <string>Wumpus</string>
+    </PossibleAnswers>
+    <NumAnswers>4</NumAnswers>
+    <CorrectAnswerIndex>3</CorrectAnswerIndex>
+  </TriviaQuestion>
+  <TriviaQuestion>
+    <Question>Hunt The Wumpus was originally written by:</Question>
+    <PossibleAnswers>
+      <string>Harvey Tyson</string>
+      <string>Gregory Yob</string>
+      <string>Brent Camron</string>
+      <string>Hector Allan</string>
+    </PossibleAnswers>
+    <NumAnswers>4</NumAnswers>
+    <CorrectAnswerIndex>1</CorrectAnswerIndex>
+  </TriviaQuestion>
+  <TriviaQuestion>
+    <Question>Which of these earlier games did not influence Hunt the Wumpus?</Question>
+    <PossibleAnswers>
+      <string>Snipe</string>
+      <string>Mugwump</string>
+      <string>Hurkle</string>
+      <string>Snark</string>
+    </PossibleAnswers>
+    <NumAnswers>4</NumAnswers>
+    <CorrectAnswerIndex>0</CorrectAnswerIndex>
+  </TriviaQuestion>
+  <TriviaQuestion>
+    <Question>True or False: The creator of Hunt the Wumpus was an avid reader of Archie Comics.</Question>
+    <PossibleAnswers>
+      <string>True</string>
+      <string>False</string>
+    </PossibleAnswers>
+    <NumAnswers>2</NumAnswers>
+    <CorrectAnswerIndex>1</CorrectAnswerIndex>
+  </TriviaQuestion>
+  <TriviaQuestion>
+    <Question>True or False: Hunt the Wumpus was originally a text-based game.</Question>
+    <PossibleAnswers>
+      <string>True</string>
+      <string>False</string>
+      <string> </string>
+      <string> </string>
+    </PossibleAnswers>
+    <NumAnswers>2</NumAnswers>
+    <CorrectAnswerIndex>0</CorrectAnswerIndex>
+  </TriviaQuestion>
+  <TriviaQuestion>
+    <Question>True or False: Ex-Vice-President Al Gore claimed that he invented the internet.</Question>
+    <PossibleAnswers>
+      <string>True</string>
+      <string>False</string>
+    </PossibleAnswers>
+    <NumAnswers>2</NumAnswers>
+    <CorrectAnswerIndex>1</CorrectAnswerIndex>
+  </TriviaQuestion>
+  <TriviaQuestion>
+    <Question>What was the namme of C#'s ex-mascot?</Question>
+    <PossibleAnswers>
+      <string>Andy</string>
+      <string>Dave</string>
+      <string>Carl</string>
+      <string>The Big C</string>
+    </PossibleAnswers>
+    <NumAnswers>4</NumAnswers>
+    <CorrectAnswerIndex>0</CorrectAnswerIndex>
+  </TriviaQuestion>
+  <TriviaQuestion>
+    <Question>True or False: The creator of C# and the creator of Hunt The Wumpus were third cousins.</Question>
+    <PossibleAnswers>
+      <string>True</string>
+      <string>False</string>
+    </PossibleAnswers>
+    <NumAnswers>2</NumAnswers>
+    <CorrectAnswerIndex>1</CorrectAnswerIndex>
+  </TriviaQuestion>
+  <TriviaQuestion>
+    <Question>True or False: The first version of Hunt The Wumpus was completely text based.</Question>
+    <PossibleAnswers>
+      <string>True</string>
+      <string>False</string>
+    </PossibleAnswers>
+    <NumAnswers>2</NumAnswers>
+    <CorrectAnswerIndex>0</CorrectAnswerIndex>
+  </TriviaQuestion>
+  <TriviaQuestion>
+    <Question>What was the original retail price of Hunt The Wumpus on the TI-99?</Question>
+    <PossibleAnswers>
+      <string>$9.95</string>
+      <string>$24.95</string>
+      <string>$45.95</string>
+      <string>$59.95</string>
+    </PossibleAnswers>
+    <NumAnswers>4</NumAnswers>
+    <CorrectAnswerIndex>1</CorrectAnswerIndex>
+  </TriviaQuestion>
+  <TriviaQuestion>
+    <Question>The Wumpus made a brief cameo in an early Simpsons episode.</Question>
+    <PossibleAnswers>
+      <string>True</string>
+      <string>False</string>
+    </PossibleAnswers>
+    <NumAnswers>2</NumAnswers>
+    <CorrectAnswerIndex>0</CorrectAnswerIndex>
+  </TriviaQuestion>
+  <TriviaQuestion>
+    <Question>Several Wumpus-based Magic The Gathering cards are based on the wumpus.</Question>
+    <PossibleAnswers>
+      <string>True</string>
+      <string>False</string>
+    </PossibleAnswers>
+    <NumAnswers>2</NumAnswers>
+    <CorrectAnswerIndex>0</CorrectAnswerIndex>
+  </TriviaQuestion>
+  <TriviaQuestion>
+    <Question>True of False: Wumpus is also the name of a search engine.</Question>
+    <PossibleAnswers>
+      <string>True</string>
+      <string>False</string>
+    </PossibleAnswers>
+    <NumAnswers>2</NumAnswers>
+    <CorrectAnswerIndex>0</CorrectAnswerIndex>
+  </TriviaQuestion>
+  <TriviaQuestion>
+    <Question>True or False: A game exists on the internet in which you play as the Wumpus.</Question>
+    <PossibleAnswers>
+      <string>True</string>
+      <string>False</string>
+    </PossibleAnswers>
+    <NumAnswers>2</NumAnswers>
+    <CorrectAnswerIndex>0</CorrectAnswerIndex>
+  </TriviaQuestion>
+  <TriviaQuestion>
+    <Question>In the orignial Hunt the Wumpus game, the arrows were called what?</Question>
+    <PossibleAnswers>
+      <string>"power arrows"</string>
+      <string>"light arrows"</string>
+      <string>"arrows"</string>
+      <string>"crooked arrows"</string>
+    </PossibleAnswers>
+    <NumAnswers>4</NumAnswers>
+    <CorrectAnswerIndex>3</CorrectAnswerIndex>
+  </TriviaQuestion>
+  <TriviaQuestion>
+    <Question>Which saint is the patron saint of brick layers?</Question>
+    <PossibleAnswers>
+      <string>St.Thomas</string>
+      <string>St.Darius</string>
+      <string>St.Stephen</string>
+      <string>St.Potter</string>
+    </PossibleAnswers>
+    <NumAnswers>4</NumAnswers>
+    <CorrectAnswerIndex>2</CorrectAnswerIndex>
+  </TriviaQuestion>
+  <TriviaQuestion>
+    <Question>How many eyelids does a camel have?</Question>
+    <PossibleAnswers>
+      <string>1</string>
+      <string>2</string>
+      <string>3</string>
+      <string>4</string>
+    </PossibleAnswers>
+    <NumAnswers>4</NumAnswers>
+    <CorrectAnswerIndex>2</CorrectAnswerIndex>
+  </TriviaQuestion>
+  <TriviaQuestion>
+    <Question>Teutophobia is the fear of what?</Question>
+    <PossibleAnswers>
+      <string>Fear of Germans and German things.</string>
+      <string>Fear of missles or bullets.</string>
+      <string>Fear of depth.</string>
+      <string>Fear of plants.</string>
+    </PossibleAnswers>
+    <NumAnswers>4</NumAnswers>
+    <CorrectAnswerIndex>3</CorrectAnswerIndex>
+  </TriviaQuestion>
+  <TriviaQuestion>
+    <Question>Ornithophobia is the fear of what?</Question>
+    <PossibleAnswers>
+      <string>Fear of smells.</string>
+      <string>Fear of dreams.</string>
+      <string>Fear of injury.</string>
+      <string>Fear of birds.</string>
+    </PossibleAnswers>
+    <NumAnswers>4</NumAnswers>
+    <CorrectAnswerIndex>3</CorrectAnswerIndex>
+  </TriviaQuestion>
+  <TriviaQuestion>
+    <Question>Selachophobia is the fear of what?</Question>
+    <PossibleAnswers>
+      <string>Fear of sharks.</string>
+      <string>Fear of snakes.</string>
+      <string>Fear of sleep.</string>
+      <string>Fear of mice.</string>
+    </PossibleAnswers>
+    <NumAnswers>4</NumAnswers>
+    <CorrectAnswerIndex>0</CorrectAnswerIndex>
+  </TriviaQuestion>
+  <TriviaQuestion>
+    <Question>Thaasophobia is the fear of what?</Question>
+    <PossibleAnswers>
+      <string>Fear of knees.</string>
+      <string>Fear of sitting down.</string>
+      <string>Fear of injections.</string>
+      <string>Fear of theaters.</string>
+    </PossibleAnswers>
+    <NumAnswers>4</NumAnswers>
+    <CorrectAnswerIndex>1</CorrectAnswerIndex>
+  </TriviaQuestion>
+  <TriviaQuestion>
+    <Question>Xylophobia is the fear of what?</Question>
+    <PossibleAnswers>
+      <string>Fear of percussive instruments.</string>
+      <string>Fear of wooden objects or forests.</string>
+      <string>Fear of witches and witchcraft.</string>
+      <string>Fear of mallets.</string>
+    </PossibleAnswers>
+    <NumAnswers>4</NumAnswers>
+    <CorrectAnswerIndex>1</CorrectAnswerIndex>
+  </TriviaQuestion>
+  <TriviaQuestion>
+    <Question>Melissophobia is the fear of what?</Question>
+    <PossibleAnswers>
+      <string>Fear of bees.</string>
+      <string>Fear of people named Melissa.</string>
+      <string>Fear of everyone named Mel Gibson, except for the actor.</string>
+      <string>Fear of sowing.</string>
+    </PossibleAnswers>
+    <NumAnswers>4</NumAnswers>
+    <CorrectAnswerIndex>0</CorrectAnswerIndex>
+  </TriviaQuestion>
+
+</ArrayOfTriviaQuestion>

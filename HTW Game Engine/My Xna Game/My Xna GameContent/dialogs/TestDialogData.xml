@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TiviaData>
+  <TriviaQuestion>
+    <Question>This is the question.</Question>
+    <CorrectAnswer>This is the correct answer.</CorrectAnswer>
+    <Answer>This is incorrect answer #1</Answer>
+    <Answer>This is incorrect answer #2</Answer>
+    <Answer>This is incorrect answer #3</Answer>
+  </TriviaQuestion>
+</TiviaData>
