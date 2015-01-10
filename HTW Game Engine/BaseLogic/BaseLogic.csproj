@@ -1,0 +1,538 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{16B6B820-A670-4CFE-87DC-3533B947B716}</ProjectGuid>
+    <ProjectTypeGuids>{6D335F3A-9D43-41b4-9D22-F6F17C4BE596};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BaseLogic</RootNamespace>
+    <AssemblyName>DeferredRenderer</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
+    <XnaPlatform>Windows</XnaPlatform>
+    <XnaProfile>HiDef</XnaProfile>
+    <XnaCrossPlatformGroupID>e9276a16-0184-49de-9c60-d50434b8ce7e</XnaCrossPlatformGroupID>
+    <XnaOutputType>Library</XnaOutputType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\x86\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>false</XnaCompressContent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>true</XnaCompressContent>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Game, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Graphics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.GamerServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Xact, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Video, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Avatar, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Net, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Storage, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Core\FrameType.cs" />
+    <Compile Include="Core\ProcessTimer.cs" />
+    <Compile Include="Editor\Forms\Core\LoadingProgressForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\Forms\Core\LoadingProgressForm.Designer.cs">
+      <DependentUpon>LoadingProgressForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Forms\Core\ResolutionSelectorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\Forms\Core\ResolutionSelectorForm.Designer.cs">
+      <DependentUpon>ResolutionSelectorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Forms\MatrixEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\Forms\MatrixEditorForm.Designer.cs">
+      <DependentUpon>MatrixEditorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Game Object\OriginMgr.cs" />
+    <Compile Include="Editor\Forms\Object Editors\Game Object\SwingingDoorObjEditorFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Game Object\SwingingDoorObjEditorFrom.Designer.cs">
+      <DependentUpon>SwingingDoorObjEditorFrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Game Object\TranslatingDoorObjEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Game Object\TranslatingDoorObjEditorForm.Designer.cs">
+      <DependentUpon>TranslatingDoorObjEditorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Game Play\AddNewGameEvent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Game Play\AddNewGameEvent.Designer.cs">
+      <DependentUpon>AddNewGameEvent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Game Play\SelectLightForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Game Play\SelectLightForm.Designer.cs">
+      <DependentUpon>SelectLightForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Game Play\SoundEffectEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Game Play\SoundEffectEditorForm.Designer.cs">
+      <DependentUpon>SoundEffectEditorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Game Play\TimedParticleSystemEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Game Play\TimedParticleSystemEditorForm.Designer.cs">
+      <DependentUpon>TimedParticleSystemEditorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Helper\SearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Helper\SearchForm.Designer.cs">
+      <DependentUpon>SearchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Light\EditFlashingLightForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Light\EditFlashingLightForm.Designer.cs">
+      <DependentUpon>EditFlashingLightForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Light\LightModifierEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Light\LightModifierEditor.Designer.cs">
+      <DependentUpon>LightModifierEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Physics\AddRevoluteJointForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Physics\AddRevoluteJointForm.Designer.cs">
+      <DependentUpon>AddRevoluteJointForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Forms\Core\ColorSelectorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\Forms\Core\ColorSelectorForm.Designer.cs">
+      <DependentUpon>ColorSelectorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Game Object\CreateAnimatedObjForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Game Object\CreateAnimatedObjForm.Designer.cs">
+      <DependentUpon>CreateAnimatedObjForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Light\CreateDirLightForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Light\CreateDirLightForm.Designer.cs">
+      <DependentUpon>CreateDirLightForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Light\CreateLightStartForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Light\CreateLightStartForm.Designer.cs">
+      <DependentUpon>CreateLightStartForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Game Object\CreateObjEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Game Object\CreateObjEditorForm.Designer.cs">
+      <DependentUpon>CreateObjEditorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Camera\FirstPersonCamera.cs" />
+    <Compile Include="Core\CoreHelpers.cs" />
+    <Compile Include="Core\GameMath.cs" />
+    <Compile Include="Core\PrimitiveTypeHelper.cs" />
+    <Compile Include="Editor\Forms\Object Editors\Light\CreatePointLightForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Light\CreatePointLightForm.Designer.cs">
+      <DependentUpon>CreatePointLightForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Light\CreateSpotLightForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Light\CreateSpotLightForm.Designer.cs">
+      <DependentUpon>CreateSpotLightForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Particle Systems\CreateExistingParticleSystemForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Particle Systems\CreateExistingParticleSystemForm.Designer.cs">
+      <DependentUpon>CreateExistingParticleSystemForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Helper\DuplicateGroupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Helper\DuplicateGroupForm.Designer.cs">
+      <DependentUpon>DuplicateGroupForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Helper\DuplicateObjForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Helper\DuplicateObjForm.Designer.cs">
+      <DependentUpon>DuplicateObjForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Light\GameLightEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Light\GameLightEditorForm.Designer.cs">
+      <DependentUpon>GameLightEditorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Game Object\GameObjEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Game Object\GameObjEditorForm.Designer.cs">
+      <DependentUpon>GameObjEditorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Camera\FreeLookCamera.cs" />
+    <Compile Include="Editor\Forms\Core\LoadLevelForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\Forms\Core\LoadLevelForm.Designer.cs">
+      <DependentUpon>LoadLevelForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Helper\LocalEditingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Helper\LocalEditingForm.Designer.cs">
+      <DependentUpon>LocalEditingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Game Object\MaterialEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Game Object\MaterialEditorForm.Designer.cs">
+      <DependentUpon>MaterialEditorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Helper\ObjGroupEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Helper\ObjGroupEditorForm.Designer.cs">
+      <DependentUpon>ObjGroupEditorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Physics\ObjPhysEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Physics\ObjPhysEditorForm.Designer.cs">
+      <DependentUpon>ObjPhysEditorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Particle Systems\ParticleMgrForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Particle Systems\ParticleMgrForm.Designer.cs">
+      <DependentUpon>ParticleMgrForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Particle Systems\ParticleSystemEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Particle Systems\ParticleSystemEditorForm.Designer.cs">
+      <DependentUpon>ParticleSystemEditorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Forms\Core\SaveLevelForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\Forms\Core\SaveLevelForm.Designer.cs">
+      <DependentUpon>SaveLevelForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Forms\Graphics\SceneSettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\Forms\Graphics\SceneSettingsForm.Designer.cs">
+      <DependentUpon>SceneSettingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Forms\Graphics\ShadowSettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\Forms\Graphics\ShadowSettingsForm.Designer.cs">
+      <DependentUpon>ShadowSettingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Forms\Graphics\SSAOSettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\Forms\Graphics\SSAOSettingsForm.Designer.cs">
+      <DependentUpon>SSAOSettingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Game Object\WaterObjEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Game Object\WaterObjEditorForm.Designer.cs">
+      <DependentUpon>WaterObjEditorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Game Play\RealTimeEventEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Game Play\RealTimeEventEditorForm.Designer.cs">
+      <DependentUpon>RealTimeEventEditorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Game Play\TriggerEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\Forms\Object Editors\Game Play\TriggerEditorForm.Designer.cs">
+      <DependentUpon>TriggerEditorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Graphics\CustomSkinnedEffect.cs" />
+    <Compile Include="Graphics\PrimitivesRenderer.cs" />
+    <Compile Include="Manager\EditorFormMgr.cs" />
+    <Compile Include="Manager\GamePhysicsMgr.cs" />
+    <Compile Include="Manager\LightManager.cs" />
+    <Compile Include="Manager\ObjectMgr.cs" />
+    <Compile Include="Manager\ParticleMgr.cs" />
+    <Compile Include="Manager\PlayerMgr.cs" />
+    <Compile Include="Object\AnimatedObj.cs" />
+    <Compile Include="Object\AnimatorHelper.cs" />
+    <Compile Include="GameSystem.cs" />
+    <Compile Include="Input\IInput.cs" />
+    <Compile Include="Input\Input.cs" />
+    <Compile Include="Object\DoorObj.cs" />
+    <Compile Include="Object\Holdable\HoldableObj.cs" />
+    <Compile Include="Object\Holdable\ProjectileWeaponObj.cs" />
+    <Compile Include="Object\Holdable\WeaponObj.cs" />
+    <Compile Include="Object\LevelSerilizer.cs" />
+    <Compile Include="Object\PhasedAnimObj.cs" />
+    <Compile Include="Object\PhasedObj.cs" />
+    <Compile Include="Object\PhysObj.cs" />
+    <Compile Include="Object\SwingingDoorObj.cs" />
+    <Compile Include="Object\TranslatingDoorObj.cs" />
+    <Compile Include="Object\WaterObject.cs" />
+    <Compile Include="Player\AIMemory.cs" />
+    <Compile Include="Player\AIMgr.cs" />
+    <Compile Include="Player\AI\AIState.cs" />
+    <Compile Include="Player\AI\Graph\GraphEdge.cs" />
+    <Compile Include="Player\AI\Graph\GraphNode.cs" />
+    <Compile Include="Player\AI\Graph\GraphSearchBFS.cs" />
+    <Compile Include="Player\AI\Graph\GraphSearchDFS.cs" />
+    <Compile Include="Player\AI\Graph\GraphSearchDijkstra.cs" />
+    <Compile Include="Player\AI\Graph\IndexedPriorityQLow.cs" />
+    <Compile Include="Player\AI\Graph\SearchAlgorithim.cs" />
+    <Compile Include="Player\AI\Graph\SparseGraph.cs" />
+    <Compile Include="Player\AI\StateMachine.cs" />
+    <Compile Include="Player\AI\SteeringBehaviors.cs" />
+    <Compile Include="Player\EnemyAIPlayer.cs" />
+    <Compile Include="Player\GameAIPlayer.cs" />
+    <Compile Include="Player\GamePlayer.cs" />
+    <Compile Include="Player\TriggerSystem.cs" />
+    <Compile Include="Player\UserPlayer.cs" />
+    <Compile Include="Process\GameProcess.cs" />
+    <Compile Include="Process\GameProcessList.cs" />
+    <Compile Include="Manager\ProcessMgr.cs" />
+    <Compile Include="Process\ObjectProcessList.cs" />
+    <Compile Include="Process\RealTimeEventManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Object\StaticObj.cs" />
+    <Compile Include="Graphics\TextRenderer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Physics\Physics.csproj">
+      <Project>{888DC669-1E80-4AFD-895B-4B6A0751A07C}</Project>
+      <Name>Physics</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\RenderingSystem\RenderingSystem.csproj">
+      <Project>{612A4EE2-4EEF-4D0A-93C2-5BC048C15974}</Project>
+      <Name>RenderingSystem</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\SkinnedModel\SkinnedModel.csproj">
+      <Project>{D8DFE4BB-949B-415A-9260-CE5105B226FF}</Project>
+      <Name>SkinnedModel</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Editor\Forms\Core\LoadingProgressForm.resx">
+      <DependentUpon>LoadingProgressForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\Forms\Core\ResolutionSelectorForm.resx">
+      <DependentUpon>ResolutionSelectorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\Forms\MatrixEditorForm.resx">
+      <DependentUpon>MatrixEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\Forms\Object Editors\Game Object\SwingingDoorObjEditorFrom.resx">
+      <DependentUpon>SwingingDoorObjEditorFrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\Forms\Object Editors\Game Object\TranslatingDoorObjEditorForm.resx">
+      <DependentUpon>TranslatingDoorObjEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\Forms\Object Editors\Game Play\AddNewGameEvent.resx">
+      <DependentUpon>AddNewGameEvent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\Forms\Object Editors\Game Play\SelectLightForm.resx">
+      <DependentUpon>SelectLightForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\Forms\Object Editors\Game Play\SoundEffectEditorForm.resx">
+      <DependentUpon>SoundEffectEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\Forms\Object Editors\Game Play\TimedParticleSystemEditorForm.resx">
+      <DependentUpon>TimedParticleSystemEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\Forms\Object Editors\Helper\SearchForm.resx">
+      <DependentUpon>SearchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\Forms\Object Editors\Light\EditFlashingLightForm.resx">
+      <DependentUpon>EditFlashingLightForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\Forms\Object Editors\Light\LightModifierEditor.resx">
+      <DependentUpon>LightModifierEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\Forms\Object Editors\Physics\AddRevoluteJointForm.resx">
+      <DependentUpon>AddRevoluteJointForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\Forms\Core\ColorSelectorForm.resx">
+      <DependentUpon>ColorSelectorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\Forms\Object Editors\Game Object\CreateAnimatedObjForm.resx">
+      <DependentUpon>CreateAnimatedObjForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\Forms\Object Editors\Light\CreateDirLightForm.resx">
+      <DependentUpon>CreateDirLightForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\Forms\Object Editors\Light\CreateLightStartForm.resx">
+      <DependentUpon>CreateLightStartForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\Forms\Object Editors\Game Object\CreateObjEditorForm.resx">
+      <DependentUpon>CreateObjEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\Forms\Object Editors\Light\CreatePointLightForm.resx">
+      <DependentUpon>CreatePointLightForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\Forms\Object Editors\Light\CreateSpotLightForm.resx">
+      <DependentUpon>CreateSpotLightForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\Forms\Object Editors\Particle Systems\CreateExistingParticleSystemForm.resx">
+      <DependentUpon>CreateExistingParticleSystemForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\Forms\Object Editors\Helper\DuplicateGroupForm.resx">
+      <DependentUpon>DuplicateGroupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\Forms\Object Editors\Helper\DuplicateObjForm.resx">
+      <DependentUpon>DuplicateObjForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\Forms\Object Editors\Light\GameLightEditorForm.resx">
+      <DependentUpon>GameLightEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\Forms\Object Editors\Game Object\GameObjEditorForm.resx">
+      <DependentUpon>GameObjEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\Forms\Core\LoadLevelForm.resx">
+      <DependentUpon>LoadLevelForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\Forms\Object Editors\Helper\LocalEditingForm.resx">
+      <DependentUpon>LocalEditingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\Forms\Object Editors\Game Object\MaterialEditorForm.resx">
+      <DependentUpon>MaterialEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\Forms\Object Editors\Helper\ObjGroupEditorForm.resx">
+      <DependentUpon>ObjGroupEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\Forms\Object Editors\Physics\ObjPhysEditorForm.resx">
+      <DependentUpon>ObjPhysEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\Forms\Object Editors\Particle Systems\ParticleMgrForm.resx">
+      <DependentUpon>ParticleMgrForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\Forms\Object Editors\Particle Systems\ParticleSystemEditorForm.resx">
+      <DependentUpon>ParticleSystemEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\Forms\Core\SaveLevelForm.resx">
+      <DependentUpon>SaveLevelForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\Forms\Graphics\SceneSettingsForm.resx">
+      <DependentUpon>SceneSettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\Forms\Graphics\ShadowSettingsForm.resx">
+      <DependentUpon>ShadowSettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\Forms\Graphics\SSAOSettingsForm.resx">
+      <DependentUpon>SSAOSettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\Forms\Object Editors\Game Object\WaterObjEditorForm.resx">
+      <DependentUpon>WaterObjEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\Forms\Object Editors\Game Play\RealTimeEventEditorForm.resx">
+      <DependentUpon>RealTimeEventEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\Forms\Object Editors\Game Play\TriggerEditorForm.resx">
+      <DependentUpon>TriggerEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />
+  <!--
+      To modify your build process, add your task inside one of the targets below and uncomment it. 
+      Other similar extension points exist, see Microsoft.Common.targets.
+      <Target Name="BeforeBuild">
+      </Target>
+      <Target Name="AfterBuild">
+      </Target>
+    -->
+</Project>
