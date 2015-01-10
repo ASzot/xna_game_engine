@@ -547,8 +547,9 @@ namespace My_Xna_Game
                         break;
 
                     case Keys.P:
-                        var songProc = new SongProcess("Chairmode Activate");
-                        gameSystem.AddGameProcess(songProc);
+                        // A song could be set up to play here
+                        //var songProc = new SongProcess("Some Song");
+                        //gameSystem.AddGameProcess(songProc);
                         break;
 
                     case Keys.T:
