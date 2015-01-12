@@ -394,27 +394,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="images\DiffuseMaps\OldBricksDiffuse.jpg">
-      <Name>OldBricksDiffuse</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="images\NormalMaps\OldBricksNormal.jpg">
-      <Name>OldBricksNormal</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="images\SpecularMaps\OldBricksSpecular.jpg">
-      <Name>OldBricksSpecular</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Models\tubelight.x">
       <Name>tubelight</Name>
       <Importer>XImporter</Importer>
