@@ -744,13 +744,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="images\skymaps\SunInSpace.dds">
-      <Name>SunInSpace</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="sound\RunningWater.wav">
       <Name>RunningWater</Name>
       <Importer>WavImporter</Importer>
@@ -830,11 +823,6 @@
       <Processor>GameProcessor</Processor>
       <ProcessorParameters_SwapWindingOrder>True</ProcessorParameters_SwapWindingOrder>
       <ProcessorParameters_WindingOrder>CounterClockwise</ProcessorParameters_WindingOrder>
-    </Compile>
-    <Compile Include="videos\IntroSequence.wmv">
-      <Name>IntroSequence</Name>
-      <Importer>WmvImporter</Importer>
-      <Processor>VideoProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>

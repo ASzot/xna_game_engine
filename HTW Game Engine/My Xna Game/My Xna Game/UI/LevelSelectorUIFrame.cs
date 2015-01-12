@@ -54,7 +54,7 @@ namespace My_Xna_Game.UI
             {
                 "Level 1",
                 "Level 2",
-                "Level 3",
+                "Empty Level",
                 "Tester Level",
             };
 
@@ -63,7 +63,7 @@ namespace My_Xna_Game.UI
             {
                 "Level1",
                 "Level1",
-                "Level1",
+                "EmptyLevel",
                 "TesterLevel",
             };
 
@@ -72,7 +72,7 @@ namespace My_Xna_Game.UI
             {
                 "NormalTrivia",
                 "NormalTrivia",
-                "NormalTrivia",
+                null,
                 null
             };
 
@@ -81,7 +81,7 @@ namespace My_Xna_Game.UI
             {
                 "Level1Map",
                 "Level2Map",
-                "Level3Map",
+                null,
                 null
             };
 

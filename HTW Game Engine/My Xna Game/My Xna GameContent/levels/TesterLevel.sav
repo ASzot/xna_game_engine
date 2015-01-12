@@ -31372,7 +31372,7 @@
             <Texture>
               <Name />
             </Texture>
-            <Filename>images/DiffuseMaps/OldBricksDiffuse</Filename>
+            <Filename>images/default_diffuse</Filename>
           </DiffuseMap>
           <SpecularMap />
           <NormalMap>
