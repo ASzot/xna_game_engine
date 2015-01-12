@@ -6,8 +6,8 @@ The Wumpus Game Engine is a comprehensive 3D XNA game engine. While it was desig
 
 In the engine there are four main components: rendering, physics, editing, and AI. They all work together to make an easy to use game engine. Your own scenes can easily be created through the in game editor which allows importing custom meshes and customizing all graphics settings. Game mechanics can then be implemented in code through interfacing with the Wumpus Game Engine. The engine abstracts all of the rendering, physics, and AI code so attention can be focused on implementing gameplay alone. However, if you wanted to change fundemental engine code you totally could. 
 
-- Controls for the game can be found [here](httt://wumpusengine.com/Usage.aspx)
-- Pictures of the engine in action can be found [here](http://wumpusengine.com/Features.aspx)
+- Controls for the game can be found [here](http://wumpusengine.com/Usage.aspx)
+- Pictures of the engine in action can be found [here](http://wumpusengine.com/FeaturesPage.aspx)
 
 ##Rendering
 - Deferred rendering
