@@ -1,7 +1,7 @@
 # Wumpus-XNA-Game-Engine
 A game engine written in C# using the XNA technology. Includes a 3D rendering system, physics engine, and AI implementation. Is designed specifically for Hunt the Wumpus variant games although could be adapted for other needs.
-Check out the website [here](http://wumpusengine.com). *Won the best Hunt the Wumpus Game at the Microsoft Hunt the Wumpus 
-competition.*
+Check out the website [here](http://wumpusengine.com). **Won the best Hunt the Wumpus Game at the Microsoft Hunt the Wumpus 
+competition.**
 
 The Wumpus Game Engine is a comprehensive 3D XNA game engine. While it was designed for the Hunt the Wumpus game it can easily be changed to suite the needs of any other game due to the highly extensible and adaptable code. The Hunt the Wumpus Game code is completely abstracted from the rest of the code. 
 
