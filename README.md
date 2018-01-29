@@ -86,3 +86,31 @@ Below: Even in a dark lighting environment the scene looks great.
 
 Below: Import your own custom game models.
 ![alt](https://github.com/ASzot/Wumpus-XNA-Game-Engine/blob/master/img/wumpus/pic19.png)
+
+
+Blocks resting on top of each other
+![alt](https://github.com/ASzot/Wumpus-XNA-Game-Engine/blob/master/img/wumpus/pic10.png)
+
+Below: A fully customized scene
+![alt](https://github.com/ASzot/Wumpus-XNA-Game-Engine/blob/master/img/wumpus/pic5.png)
+
+
+Below: Debug settings of a scene with light position and type being displayed in the 3D environment.
+![alt](https://github.com/ASzot/Wumpus-XNA-Game-Engine/blob/master/img/wumpus/pic18.png)
+
+Below: Debug settings showing the render culling bounding boxes for meshes and lights.
+![alt](https://github.com/ASzot/Wumpus-XNA-Game-Engine/blob/master/img/wumpus/pic19.png)
+
+
+Below: An intractable flare object in a scene.
+![alt](https://github.com/ASzot/Wumpus-XNA-Game-Engine/blob/master/img/wumpus/pic20.png)
+
+Below: The first person view with the overlaying UI in the Hunt the Wumpus game.
+![alt](https://github.com/ASzot/Wumpus-XNA-Game-Engine/blob/master/img/wumpus/pic21.png)
+
+
+
+
+
+
+
