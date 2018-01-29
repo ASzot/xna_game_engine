@@ -38,3 +38,51 @@ Change every aspect of the scene with the in game editor. Whether it be as samll
 
 ## Using
 The prerequisites for running this project are Visual Studio 2010 and the XNA 4.0 runtime. Once both of these are obtained go download the project then open the .sln file with Visual Studio 2010. Then run the project in Visual Studio 2010.
+
+
+
+## Screenshots
+Below: Beautiful scenes with complex shading which are completely customizable through the in game editor.
+[alt](img/wumpus/pic0.png)
+
+Below: A heavy bloom is applied as a post processing effect. Use post processing effects to change the mood of the scene.  Make these changes in a few simple steps. No programming required.
+[alt](img/wumpus/pic1.png)
+
+Below: Tone mapping applied to the scene to create a more gloomy atmosphere.
+[alt](img/wumpus/pic2.png)
+
+Below: A spot light is illuminating the scene.
+[alt](img/wumpus/pic3.png)
+
+Below: A sun flare can be seen shining down on the scene.
+[alt](img/wumpus/pic4.png)
+
+Below: Water in a scene.
+[alt](img/wumpus/pic6.png)
+
+Below: Natural sunlight beating down on the scene.
+[alt](img/wumpus/pic9.png)
+
+Below: Fire particle system in a scene.
+[alt](img/wumpus/pic15.png)
+
+Below: Transparent object materials are fully supported.
+[alt](img/wumpus/pic14.png)
+
+Below: Thousands of lights are supported at once.
+[alt](img/wumpus/pic18.png)
+
+Below: Dynamic show casting at work
+[alt](img/wumpus/pic20.png)
+
+Below: Further demonstration of a shadows for a complex object.
+[alt](img/wumpus/pic11.png)
+
+Below: Spot light illuminating a part of a scene.
+[alt](img/wumpus/pic12.png)
+
+Below: Even in a dark lighting environment the scene looks great.
+[alt](img/wumpus/pic13.png)
+
+Below: Import your own custom game models.
+[alt](img/wumpus/pic19.png)
