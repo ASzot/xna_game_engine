@@ -10,7 +10,7 @@ In the engine there are four main components: rendering, physics, editing, and A
 - Controls for the game can be found [here](http://wumpusengine.com/Usage.aspx)
 - Pictures of the engine in action can be found [here](http://wumpusengine.com/FeaturesPage.aspx)
 
-###Rendering
+### Rendering
 - Deferred rendering
 - Screen space ambient occlusion
 - Shading with specular, diffuse, and ambbient lighting  model
@@ -27,14 +27,14 @@ In the engine there are four main components: rendering, physics, editing, and A
 - Water plane effects
 - Mesh and light culling
 
-###Physics
+### Physics
 Comes equiped with a full fledged physics system. Collisions, constraints, and movement are all implemented. You can even define your own physics data.
 
-###AI
+### AI
 AI are equiped to use path finding techniques, do graph navigation, have states and much more.
 
-###In Game Editor
+### In Game Editor
 Change every aspect of the scene with the in game editor. Whether it be as samll as the the particle rotational velocity in a particle system or as major as post processing effects. No coding necessary!
 
-##Using
+## Using
 The prerequisites for running this project are Visual Studio 2010 and the XNA 4.0 runtime. Once both of these are obtained go download the project then open the .sln file with Visual Studio 2010. Then run the project in Visual Studio 2010.
